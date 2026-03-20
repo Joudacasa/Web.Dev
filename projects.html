@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projetos | Web Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+     <style>
+        .image-placeholder img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+        }
+    </style>
+    <aside class="sidebar">
+        <h2>WEB.DEV</h2>
+        <div class="nav-group">
+            <label>Navegação</label>
+            <a href="index.html" class="btn-nav">Home</a>
+            <a href="overview.html" class="btn-nav">Visão Geral</a>
+        </div>
+        <div class="nav-group">
+            <label>Conteúdo Técnico</label>
+            <a href="projects.html" class="btn-nav active">Projetos</a>
+            <a href="news.html" class="btn-nav">Notícias</a>
+        </div>
+        <div class="nav-group">
+            <label>Institucional</label>
+            <a href="sobre.html" class="btn-nav">Sobre</a>
+            <a href="contact.html" class="btn-nav">Contato</a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <section class="section-long">
+            <h1>Sistemas Escaláveis e Microsserviços</h1>
+            <p>Nesta seção, analisamos projetos que utilizam arquitetura de microsserviços para suportar milhões de usuários simultâneos. Diferente de sistemas monolíticos, aqui cada serviço é independente, facilitando o deploy contínuo e a resiliência do sistema.</p>
+            <div class="image-placeholder"><img src="https://dtnetwork.com.br/wp-content/uploads/2023/07/comandos-basicos-do-cmd.png" alt=""></div>
+            <p>Implementamos bancos de dados NoSQL para alta disponibilidade e sistemas de cache em memória como o Redis para garantir que a resposta às consultas mais frequentes seja instantânea, reduzindo a carga nos servidores de banco de dados principais.</p>
+        </section>
+
+        <section class="section-long">
+            <h2>Integração Contínua e Deployment (CI/CD)</h2>
+            <p>A engenharia moderna exige automação. Cada linha de código passa por testes unitários, testes de integração e auditorias de segurança automatizadas antes de chegar ao ambiente de produção através de pipelines de CI/CD robustos.</p>
+        </section>
+    </main>
+</body>
+</html>

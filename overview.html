@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Visão Geral | Web Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+     <style>
+        .image-placeholder img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+        }
+    </style>
+    <aside class="sidebar">
+        <h2>WEB.DEV</h2>
+        <div class="nav-group">
+            <label>Navegação</label>
+            <a href="index.html" class="btn-nav">Home</a>
+            <a href="overview.html" class="btn-nav active">Visão Geral</a>
+        </div>
+        <div class="nav-group">
+            <label>Conteúdo Técnico</label>
+            <a href="projects.html" class="btn-nav">Projetos</a>
+            <a href="news.html" class="btn-nav">Notícias</a>
+        </div>
+        <div class="nav-group">
+            <label>Institucional</label>
+            <a href="sobre.html" class="btn-nav">Sobre</a>
+            <a href="contact.html" class="btn-nav">Contato</a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <section class="section-long">
+            <h1>Arquitetura Global e Protocolos</h1>
+            <p>A Web moderna é sustentada pelo protocolo HTTP/3, que utiliza o QUIC para reduzir a latência em conexões instáveis. Entender a jornada de um pacote de dados desde o servidor de origem até a renderização no navegador é o primeiro passo para qualquer engenheiro de software.</p>
+            <div class="image-placeholder"><img src="https://kinsta.com/wp-content/uploads/2019/03/geekflare-http3-testing-tool.jpg" alt=""></div>
+            <p>O ciclo de requisição e resposta envolve camadas de DNS, certificados TLS 1.3 para criptografia ponta a ponta e balanceadores de carga que distribuem o tráfego entre milhares de instâncias em diferentes zonas de disponibilidade.</p>
+        </section>
+
+        <section class="section-long">
+            <h2>Otimização de Caminho Crítico</h2>
+            <p>Renderizar uma página em milissegundos exige o domínio do Critical Rendering Path. Isso inclui a otimização do DOM (Document Object Model) e do CSSOM, garantindo que o navegador não seja bloqueado por scripts pesados durante o carregamento inicial.</p>
+            <div class="image-placeholder"><img src="https://davidbreder.com/wp-content/uploads/sites/3/2024/07/output-1-1024x663.png" alt=""></div>
+            <p>Utilizamos estratégias de 'Hydration' e 'Lazy Loading' para priorizar o que o usuário vê primeiro, melhorando o LCP (Largest Contentful Paint) e reduzindo o tempo de interatividade total da aplicação.</p>
+        </section>
+    </main>
+</body>
+</html>
